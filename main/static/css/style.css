@@ -29,3 +29,58 @@ border-radius: 5px;
     position: absolute;
     top: -61px;
 }
+.crypto{
+    position: absolute;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 48px;
+/* or 161% */
+
+text-align: center;
+
+color: #FFFFFF;
+left: 686px;
+top: 120px;
+}
+.blocktwo{
+    display: relative;
+
+}
+.nid{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 48px;
+/* or 268% */
+
+
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+.inpnum{
+    width: 247px;
+    height: 57px;
+    background: #FFFFFF;
+border-radius: 98px;
+}
+.registr{
+    background: #F7931A;
+border-radius: 96px;
+width: 235px;
+height: 57px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 22px;
+/* or 148% */
+
+
+color: #FFFFFF;
+
+text-align: center;
+}
