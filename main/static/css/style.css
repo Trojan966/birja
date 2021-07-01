@@ -20,7 +20,7 @@ border-radius: 5px;
     margin-left: 60px;
 }
 .back{
-    width: 1920px;
+    width: 1864px;
     height:492px;
     background-color:#171C21;
     position: relative;
@@ -147,4 +147,17 @@ line-height: 48px;
 
 color: #F7931A;
 
+}
+.zag{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 48px;
+/* or 161% */
+
+
+color: #1E2329;
+margin-top: 140px;
+margin-left: 330px;
 }
