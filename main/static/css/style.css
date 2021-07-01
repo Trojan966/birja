@@ -21,13 +21,13 @@ border-radius: 5px;
 }
 .back{
     width: 1920px;
-    height:442px;
+    height:492px;
     background-color:#171C21;
     position: relative;
 }
 .back2{
     position: absolute;
-    top: -61px;
+    top: -10px;
 }
 .crypto{
     position: absolute;
@@ -66,6 +66,17 @@ opacity: 0.5;
     height: 57px;
     background: #FFFFFF;
 border-radius: 98px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+/* or 148% */
+
+
+color: #C6C6C6;
+
 }
 .registr{
     background: #F7931A;
@@ -83,4 +94,57 @@ line-height: 22px;
 color: #FFFFFF;
 
 text-align: center;
+}
+.trad{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+    /* or 133% */
+margin-top: 184px;
+    
+color: #1E2329;
+    
+}
+.dn2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 25px;
+/* or 179% */
+
+
+color: #1E2329;
+
+opacity: 0.7;
+margin-top: 24px;
+display: flex;
+}
+.ill{
+    margin-left: 109px;
+    height: 450px;
+    width: 650px;
+    margin-top: -150px;
+}
+.startt{
+    position: absolute;
+    background-color: white;
+    border: 2px solid #F7931A;
+box-sizing: border-box;
+border-radius: 79px;
+width: 183px;
+height: 52px;
+top: 1014px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 48px;
+/* or 345% */
+
+
+color: #F7931A;
+
 }
