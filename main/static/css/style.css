@@ -159,5 +159,10 @@ line-height: 48px;
 
 color: #1E2329;
 margin-top: 140px;
-margin-left: 330px;
+
+}
+table{
+    -webkit-box-shadow: -9px 6px 15px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: -9px 6px 15px 0px rgba(34, 60, 80, 0.2);
+box-shadow: -9px 6px 15px 0px rgba(34, 60, 80, 0.2);
 }
