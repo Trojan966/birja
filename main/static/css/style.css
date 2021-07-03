@@ -31,7 +31,7 @@ border-radius: 5px;
 }
 .crypto{
     position: absolute;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 30px;
@@ -49,7 +49,7 @@ top: 120px;
 
 }
 .nid{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -66,7 +66,7 @@ opacity: 0.5;
     height: 57px;
     background: #FFFFFF;
 border-radius: 98px;
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -83,7 +83,7 @@ color: #C6C6C6;
 border-radius: 96px;
 width: 235px;
 height: 57px;
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 17px;
@@ -96,7 +96,7 @@ color: #FFFFFF;
 text-align: center;
 }
 .trad{
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 30px;
@@ -108,7 +108,7 @@ color: #1E2329;
     
 }
 .dn2{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
@@ -136,8 +136,8 @@ box-sizing: border-box;
 border-radius: 79px;
 width: 183px;
 height: 52px;
-top: 1014px;
-font-family: Montserrat;
+top: 1114px;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -149,7 +149,7 @@ color: #F7931A;
 
 }
 .zag{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 30px;
