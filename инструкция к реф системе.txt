@@ -1,0 +1,4 @@
+def generate_referral_id():
+    result = uuid.uuid4().hex[0:15]
+    return result
+генерируем

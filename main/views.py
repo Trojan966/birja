@@ -7,3 +7,5 @@ def indexen(request):
     return render(request,'main/inen.html')
 def client(request):
     return render(request,'main/client panel.html')
+def admin(request):
+    return render(request,'main/panel.html')
