@@ -8,6 +8,10 @@ urlpatterns = [
     path('en/',views.indexen),
     path('client/',views.client),
     path('admin/',views.admin),
+<<<<<<< Updated upstream
     path('ref', main_view, name='main-view'),
     path('ref/<str:ref_code>', main_view, name='main-view'),
+=======
+    path('admin/balance',views.balance)
+>>>>>>> Stashed changes
 ]

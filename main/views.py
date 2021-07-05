@@ -26,4 +26,10 @@ def client(request):
 
 
 def admin(request):
+<<<<<<< Updated upstream
     return render(request, 'main/panel.html')
+=======
+    return render(request,'main/panel.html')
+def balance(request):
+    return render(request,'main/panel.html')
+>>>>>>> Stashed changes
