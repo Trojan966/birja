@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main',
     'profiles',
-    'ref_poj',
+    
 ]
 
 MIDDLEWARE = [

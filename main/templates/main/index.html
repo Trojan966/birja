@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -61,6 +63,7 @@
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
+              
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Market
@@ -226,44 +229,150 @@
         </div>
     </div>
     <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
+      <div class="modal-dialog modal-md  modal-lg modal-dialog-centered" >
+        <div class="modal-content"style="background: #171C21;        ">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+            <h5 class="modal-title" id="exampleModalToggleLabel" style="font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 48px;
+            /* or 134% */
+            
+            text-align: center;
+            
+            color: #FFFFFF;
+margin-left: 150px;
+            "> Enter your phone number</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
-            Show a second modal and hide this one with the button below.
+          <div class="modal-body" style="font-family: Montserrat;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 40px;
+          /* or 221% */
+          margin-top: 30px;
+          text-align: center;
+          
+          color: #FFFFFF;
+          
+          opacity: 0.7;
+          ">
+            Provide us with your phone number so that we can <br>send you a security code.
+            <input class="form-control" type="text" placeholder="Number" value="+" style="width: 289px;
+            height: 74px;background: #293139;font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 22px;
+/* or 93% */
+
+
+color: #9C9C9C;
+
+opacity: 0.29;
+border-radius: 4px; margin-left: 230px; margin-top: 69px;" aria-label="default input example">
+<button  style='width: 309px;
+height: 73.82px;
+width: 289px;
+margin-top: 46px;
+
+background: #F7931A;
+border-radius: 4px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 22px;
+/* or 93% */
+margin-left: -10px;
+
+color: #FFFFFF;
+' data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Send code
+</button>
           </div>
-          <div class="modal-footer">
-            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
-          </div>
+
         </div>
       </div>
     </div>
     <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content"style="background: #171C21;        ">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+            <h5 class="modal-title" id="exampleModalToggleLabel" style="font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 48px;
+            /* or 134% */
+            
+            text-align: center;
+            
+            color: #FFFFFF;
+margin-left: 200px;
+            ">Code sent successfully</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
-            <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
+          <div class="modal-body" style="font-family: Montserrat;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 40px;
+          /* or 221% */
+          margin-top: 30px;
+          text-align: center;
+          
+          color: #FFFFFF;
+          
+          opacity: 0.7;
+          ">
+            Enter the code sent to your phone number. Average waiting time - 5 minutes.
+            <input class="form-control" type="text" placeholder="Code" value="" style="width: 289px;
+            height: 74px;background: #293139;font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 22px;
+/* or 93% */
+
+
+color: #9C9C9C;
+
+opacity: 0.29;
+border-radius: 4px; margin-left: 230px; margin-top: 69px;" aria-label="default input example">
+<button  style='width: 309px;
+height: 73.82px;
+width: 289px;
+margin-top: 46px;
+
+background: #F7931A;
+border-radius: 4px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 22px;
+/* or 93% */
+margin-left: -10px;
+
+color: #FFFFFF;
+' data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Enter code</button><br>
+<button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to number</button>
+</div>
           </div>
-          <div class="modal-footer">
-            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
-          </div>
+
         </div>
       </div>
-    </div>
+        </div>
+
 
       <div class="footer1" style='background-color:#171C21; height: 202px;'>
       <div class="strtr" style="text-align:center;font-family: 'Montserrat', sans-serif;font-style: normal;font-weight: 600;font-size: 30px;line-height: 48px;color: #FFFFFF; margin-top: 60px;">Start trading now</div>
       </div>
       <div class="footer2" style="height: 218px; background: #12161C;"></div>
 
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
