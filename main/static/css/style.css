@@ -166,3 +166,16 @@ table{
 -moz-box-shadow: -9px 6px 15px 0px rgba(34, 60, 80, 0.2);
 box-shadow: -9px 6px 15px 0px rgba(34, 60, 80, 0.2);
 }
+.anonce{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 48px;
+/* or 371% */
+
+
+color: #000000;
+
+opacity: 0.8;
+}
