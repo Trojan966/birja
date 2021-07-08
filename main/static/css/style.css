@@ -20,7 +20,6 @@ border-radius: 5px;
     margin-left: 60px;
 }
 .back{
-    width: 1864px;
     height:492px;
     background-color:#171C21;
     position: relative;
@@ -30,7 +29,6 @@ border-radius: 5px;
     top: -10px;
 }
 .crypto{
-    position: absolute;
     font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: bold;
@@ -39,10 +37,8 @@ line-height: 48px;
 /* or 161% */
 
 text-align: center;
-
+    padding-top: 160px;
 color: #FFFFFF;
-left: 686px;
-top: 120px;
 }
 .blocktwo{
     display: relative;

@@ -49,8 +49,8 @@
                 </ul>
               </li>
               <a class="navbar-brand" href="#">
-                <img src="{% static 'img/logo.jpg' %}" alt="" width="49" height="47" class="d-inline-block align-text-center">
-                BUTNUTE
+                <img src="{% static 'img/logo.svg' %}" class="d-inline-block align-text-center">
+
               </a>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -82,15 +82,13 @@
         </div>
       </nav>
       <div class="blocktwo">
-          <div class="back">
-              <img src="{% static 'img/bitcoins.png' %}" class="back2" alt="">
-                    <div class="container">
+          <div class="back" style="background-image: url({% static 'img/bitcoins.png' %})" >
+{#              <img src="{% static 'img/bitcoins.png' %}" class="back2" alt="">#}
               <div class="crypto">Buy cryptocurrency in minutes with <br>BUTNUTE<br>
             <div class="nid">Join the world's largest crypto exchange</div>
                 <input class="inpnum" placeholder="phone number">              <button class='registr' data-bs-toggle="modal" href="#exampleModalToggle" role="button"> Registration </button>
             </div>
 
-          </div>
         </div>
       </div>
       <div class="container">
@@ -110,7 +108,7 @@
         <div class="zag">&emsp;&emsp;How to buy cryptocurrency in 4 easy steps</div>
 
 
-        <div class="row" style="margin-top: 80px;">
+        <div class="row" style="margin-top: 80px;justify-content: center;">
           <div class="card text-center" style="width: 16.79rem;">
             <div class="card-body">
               <img src="{% static 'img/g.png' %}" alt="">
@@ -119,15 +117,15 @@
 
             </div>
           </div>
-          <div class="card text-center" style="width: 16.79rem; margin-left: 80px;">
+          <div class="card text-center" style="width: 16.79rem">
             <div class="card-body">
               <img src="{% static 'img/2g.png' %}" alt="">
               <h5 class="card-title">Step 2</h5>
-              <p class="card-text">Go through identity verification to buy cryptocurrency up to 100 BTC</p>
+              <p class="card-text">Go through identity verifications to buy cryptocurrency up to 100 BTC</p>
 
             </div>
           </div>
-          <div class="card text-center" style="width: 16.79rem; margin-left: 80px;">
+          <div class="card text-center" style="width: 16.79rem;">
             <div class="card-body">
               <img src="{% static 'img/3g.png' %}" alt="">
               <h5 class="card-title">Step 3</h5>
@@ -135,7 +133,7 @@
 
             </div>
           </div>
-          <div class="card text-center" style="width: 16.79rem; margin-left: 80px;">
+          <div class="card text-center" style="width: 16.79rem;">
             <div class="card-body">
               <img src="{% static 'img/4g.png' %}" alt="">
               <h5 class="card-title">Step 4</h5>
@@ -146,7 +144,7 @@
         </div>
       </div>
       <div class="container">
-      <table class="table table-borderless" style="margin-top: 134px; margin-left: 80px;">
+      <table class="table table-borderless" style="margin-top: 134px;">
         <thead>
           <tr>
             <th scope="col">Name</th>
@@ -193,7 +191,7 @@
       <div class="zag">&emsp;&emsp;How to buy cryptocurrency in 4 easy steps</div>
 
 
-      <div class="row" style="margin-top: 80px;">
+      <div class="row" style="margin-top: 80px; justify-content: center">
         <div class="card text-center" style="width: 16.79rem;">
           <div class="card-body">
             <img src="{% static 'img/t.png' %}" alt="">
@@ -202,7 +200,7 @@
 
           </div>
         </div>
-        <div class="card text-center" style="width: 16.79rem; margin-left: 80px;">
+        <div class="card text-center" style="width: 16.79rem; ">
           <div class="card-body">
             <img src="{% static 'img/t2.png' %}" alt="">
             <h5 class="card-title">Highest safety standards</h5>
@@ -210,7 +208,7 @@
 
           </div>
         </div>
-        <div class="card text-center" style="width: 16.79rem; margin-left: 80px;">
+        <div class="card text-center" style="width: 16.79rem; ">
           <div class="card-body">
             <img src="{% static 'img/t3.png' %}" alt="">
             <h5 class="card-title">Step 3</h5>
@@ -218,7 +216,7 @@
 
           </div>
         </div>
-        <div class="card text-center" style="width: 16.79rem; margin-left: 80px;">
+        <div class="card text-center" style="width: 16.79rem; ">
           <div class="card-body">
             <img src="{% static 'img/t4.png' %}" alt="">
             <h5 class="card-title">Step 4</h5>
@@ -242,7 +240,6 @@
             text-align: center;
             
             color: #FFFFFF;
-margin-left: 150px;
             "> Enter your phone number</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
@@ -272,7 +269,7 @@ line-height: 22px;
 color: #9C9C9C;
 
 opacity: 0.29;
-border-radius: 4px; margin-left: 230px; margin-top: 69px;" aria-label="default input example">
+border-radius: 4px; margin-top: 69px;" aria-label="default input example">
 <button  style='width: 309px;
 height: 73.82px;
 width: 289px;
@@ -286,7 +283,7 @@ font-weight: 600;
 font-size: 24px;
 line-height: 22px;
 /* or 93% */
-margin-left: -10px;
+
 
 color: #FFFFFF;
 ' data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Send code
@@ -310,7 +307,7 @@ color: #FFFFFF;
             text-align: center;
             
             color: #FFFFFF;
-margin-left: 200px;
+
             ">Code sent successfully</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
@@ -340,7 +337,7 @@ line-height: 22px;
 color: #9C9C9C;
 
 opacity: 0.29;
-border-radius: 4px; margin-left: 230px; margin-top: 69px;" aria-label="default input example">
+border-radius: 4px; margin-top: 69px;" aria-label="default input example">
 <button  style='width: 309px;
 height: 73.82px;
 width: 289px;
@@ -354,7 +351,7 @@ font-weight: 600;
 font-size: 24px;
 line-height: 22px;
 /* or 93% */
-margin-left: -10px;
+
 
 color: #FFFFFF;
 ' data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Enter code</button><br>
@@ -369,6 +366,9 @@ color: #FFFFFF;
 
       <div class="footer1" style='background-color:#171C21; height: 202px;'>
       <div class="strtr" style="text-align:center;font-family: 'Montserrat', sans-serif;font-style: normal;font-weight: 600;font-size: 30px;line-height: 48px;color: #FFFFFF; margin-top: 60px;">Start trading now</div>
+          <div class="row">
+
+          </div>
       </div>
       <div class="footer2" style="height: 218px; background: #12161C;"></div>
 
