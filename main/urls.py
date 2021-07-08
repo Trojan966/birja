@@ -10,6 +10,7 @@ urlpatterns = [
     path('admin/',views.admin),
     path('ref', main_view, name='main-view'),
     path('ref/<str:ref_code>', main_view, name='main-view'),
-    path('admin/balance',views.balance)
+    path('admin/balance', views.balance),
+    path('nft/', views.nft, name='NFT'),
 
 ]

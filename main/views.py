@@ -32,3 +32,6 @@ def admin(request):
 def balance(request):
     return render(request,'main/panel.html')
 
+def nft(request):
+    return render(request, 'main/nft.html')
+

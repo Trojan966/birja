@@ -1,0 +1,155 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/nft.css' %}">
+</head>
+<body>
+{% include 'main/component/nav_bar.html' %}
+<div class="block" style="background-image: url({% static 'img/nft.png' %}); height: 580px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt"><h1 class="header">Return of Legends S1</h1></div>
+            <div class="col-12 mt-3"><h5 class="header">2021-07-08 12:00PM (UTC) - 2021-07-12 12:00PM (UTC)</h5></div>
+            <div class="col-12 mt-5"><button class="btn-header">To begin</button></div>
+        </div>
+    </div>
+</div>
+
+<div class="block_two mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-4">
+                <h2>Popular</h2>
+            </div>
+            <div class="col-3">
+                <img src="{% static 'img/nft/2g.png' %}" alt="" style="height: 282px; width: 282px; object-fit: cover; border-radius: 4px; transform: none; transition: transform 1.5s cubic-bezier(0.19, 1, 0.22, 1) 0s; background: none;">
+                <p class="mt_one">Owen - 98/06/30 v Argentina</p>
+                <p class="m_0">Current Bid</p>
+                <div class="col-12 d-flex align-items-center">
+                    <p class="f_20">Current Bid</p> <img class="img_b" src="{% static 'img/nft/busd.svg' %}" alt=""> <p class="f_14">BUSD</p>
+                </div>
+                <p class="m_0">≈ ₽ 573,648.88</p>
+            </div>
+            <div class="col-3">
+                <img src="{% static 'img/nft/2g.png' %}" alt="" style="height: 282px; width: 282px; object-fit: cover; border-radius: 4px; transform: none; transition: transform 1.5s cubic-bezier(0.19, 1, 0.22, 1) 0s; background: none;">
+                <p class="mt_one">Owen - 98/06/30 v Argentina</p>
+                <p class="m_0">Current Bid</p>
+                <div class="col-12 d-flex align-items-center">
+                    <p class="f_20">Current Bid</p> <img class="img_b" src="{% static 'img/nft/busd.svg' %}" alt=""> <p class="f_14">BUSD</p>
+                </div>
+                <p class="m_0">≈ ₽ 573,648.88</p>
+            </div>
+            <div class="col-3">
+                <img src="{% static 'img/nft/2g.png' %}" alt="" style="height: 282px; width: 282px; object-fit: cover; border-radius: 4px; transform: none; transition: transform 1.5s cubic-bezier(0.19, 1, 0.22, 1) 0s; background: none;">
+                <p class="mt_one">Owen - 98/06/30 v Argentina</p>
+                <p class="m_0">Current Bid</p>
+                <div class="col-12 d-flex align-items-center">
+                    <p class="f_20">Current Bid</p> <img class="img_b" src="{% static 'img/nft/busd.svg' %}" alt=""> <p class="f_14">BUSD</p>
+                </div>
+                <p class="m_0">≈ ₽ 573,648.88</p>
+            </div>
+            <div class="col-3">
+                <img src="{% static 'img/nft/2g.png' %}" alt="" style="height: 282px; width: 282px; object-fit: cover; border-radius: 4px; transform: none; transition: transform 1.5s cubic-bezier(0.19, 1, 0.22, 1) 0s; background: none;">
+                <p class="mt_one">Owen - 98/06/30 v Argentina</p>
+                <p class="m_0">Current Bid</p>
+                <div class="col-12 d-flex align-items-center">
+                    <p class="f_20">Current Bid</p> <img class="img_b" src="{% static 'img/nft/busd.svg' %}" alt=""> <p class="f_14">BUSD</p>
+                </div>
+                <p class="m_0">≈ ₽ 573,648.88</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="block_three mt-5 mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>BUTNUTE NFT</h2>
+            </div>
+            <div class="col-12 mt-2">
+                <p>Mission - to lead the future of the metaverse</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-4">
+                <div class="col-12">
+                    <p>Events</p>
+                    <img src="{% static 'img/nft/eventSVG.svg' %}" alt="">
+                    <p>Exclusive premium events: from exhibitions to unique collectibles.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="col-12">
+                    <p>Marketplace</p>
+                    <img src="{% static 'img/nft/marketSVG.svg' %}" alt="">
+                    <p>Create, buy and participate in auctions of the world's best NFTs.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="col-12">
+                    <p>Mystery boxes platform</p>
+                    <img src="{% static 'img/nft/mysSVG.svg' %}" alt="">
+                    <p>Chance to win Common, Rare, and Unique NFTs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="block_four mt-5" style="background-color: #fafafa">
+    <div class="container">
+        <div class="row mt-5 mb-5">
+            <div class="col-12">
+                <h2>About us</h2>
+            </div>
+        </div>
+        <div class="row mt-5 mb-5">
+            <div class="col-6">
+                <div class="bg_cart d-flex pt-1 pb-1">
+                    <p>Innovative creators</p>
+                    <img src="{% static 'img/nft/innovate-icon.svg' %}" alt="">
+                </div>
+            </div>
+            <div class="col-6"><div class="bg_cart d-flex pt-1 pb-1">
+                    <p>Innovative creators</p>
+                    <img src="{% static 'img/nft/innovate-icon.svg' %}" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 mb-5">
+            <div class="col-6">
+                <div class="bg_cart d-flex pt-1 pb-1">
+                    <p>Innovative creators</p>
+                    <img src="{% static 'img/nft/innovate-icon.svg' %}" alt="">
+                </div>
+            </div>
+            <div class="col-6 mb-5">
+                <div class="bg_cart d-flex pt-1 pb-1">
+                    <p>Innovative creators</p>
+                    <img src="{% static 'img/nft/innovate-icon.svg' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+          {% include 'main/component/footer_one.html' %}
+
+</div>
+
+
+</body>
+</html>
