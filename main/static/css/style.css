@@ -10,11 +10,11 @@
 }
 .reg{
     width: 140px;
-    margin-left: 137px;
+    margin-left: 20px;
     height: 45px;
     margin-top: 8px;
     background: #F7931A;
-border-radius: 5px;
+    border-radius: 5px;
 }
 .f{
     margin-left: 60px;
