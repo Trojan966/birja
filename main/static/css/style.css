@@ -10,7 +10,7 @@
 }
 .reg{
     width: 140px;
-    margin-left: 37px;
+    margin-left: 137px;
     height: 45px;
     margin-top: 8px;
     background: #F7931A;
@@ -174,4 +174,58 @@ line-height: 48px;
 color: #000000;
 
 opacity: 0.8;
+}
+.nul{
+    margin-top: 20px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 22px;
+/* or 62% */
+
+
+color: #000000;
+}
+.hhhh{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 24px;
+/* or 221% */
+
+
+color: #000000;
+margin-left: 63px;
+margin-top: 43px;
+opacity: 0.7;
+
+}
+.opaa{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* or 345% */
+
+
+color: #000000;
+margin-left: 63px;
+}
+.tgt{
+    margin-left: 101px;
+}
+.glt{
+    display: flex;
+    margin-top: 39px;
+}
+.wof{
+    margin-left: 326px;
+    margin-top: 58px;
+}
+.vct{
+    margin-left: 550px;
+    margin-top: 80px;
 }

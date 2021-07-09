@@ -21,9 +21,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <button class='light reg'> Download</button>
-                <li class="nav-item ">
-                    <a class="nav-link " href="#">NFT</a>
-                  </li>
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Trade
@@ -72,6 +70,9 @@
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="#">NFT</a>
+              </li>
               
             </ul>
           </div>
@@ -111,7 +112,7 @@
           height: 384px;">
             <div class="card-body">
               <div class="card-title"><b style="margin-left: 84px; font-family: Montserrat;font-style: normal;
-                font-weight: 600;font-size: 16px;">
+                font-weight: 600;font-size: 16px; ">
                 Balance Details</b>
                 
                 <div class="btn" style='width: 119px;
@@ -145,10 +146,32 @@ text-align: center;
 color: #F7931A;
 
 ">Withdraw</div>
+<img src="{% static 'img/vct.png' %}" alt="" class='vct'style=''>
+<div class="card" style="width: 18rem; margin-top:-160px ; margin-left:80px">
+  <div class="card-body">
+    <h5 class="card-title">Acount balance</h5>
+    <p class="card-text" style='font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    /* or 371% */
+    
+    
+    color: #000000;
+    line-height: 23px;
+    '>
+      0.00000000 Btc<br>
+      0.00000000 Btc<br>
+      0.00000000 Btc<br>
+      0.00000000 Btc<br>
+      0.00000000 Btc<br>
+      0.00000000 Btc<br>
+    </p>
+  </div>
+</div>
               </div>
              
-              <p class="card-text"><img src="{% static 'img/vct.png' %}" alt="" style='margin-top: 70px; margin-left: 550px;'></p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+             
             </div>
           </div>
         </div>
@@ -231,9 +254,16 @@ color: #000000;
             <div class="card-body">
               <h5 class="card-title"><b style="margin-left: 84px; font-family: Montserrat;font-style: normal;
                 font-weight: 600;font-size: 16px;">
-                Balance Details</b></h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+                Open orders</b></h5>
+              <p class="card-text">          <div class="glt">
+                <div class="tgt" style='margin-left:83px;' >Time</div>
+                <div class="tgt" style='margin-left:73px;'>Type / Side                </div>
+                <div class="tgt"style='margin-left:73px;'>Price / quantity                </div>
+                <div class="tgt"style='margin-left:73px;'>Total filled</div>
+                <div class="tgt"style='margin-left:73px;'>Actions</div>
+             
+              </div></p>
+              <img src="{% static 'img/nof.png' %}" class='wof' alt="">
             </div>
           </div>
         </div>
@@ -304,11 +334,66 @@ margin-top: -232px;
       <div class="card" style="width: 1362px;
       height: 625px;">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+          <div class="card-title"><b style="margin-left: 64px; font-family: Montserrat;font-style: normal;
+            font-weight: 600;font-size: 15px;">
+            Balance Details</b>
+          <h6 class="card-subtitle " style='margin-top: 46px; margin-left: 64px; font-family: Montserrat;
+          font-style: normal;          font-size: 15px;
+          line-height: 22px;
+          display: flex;
+          
+          
+          color: #000000;
+          '>You Earned<div class="nul" style='margin-top: 65px; margin-left: -83px;'>0</div> 
+          
+        <div style='          font-style: normal;          font-size: 15px;
+        line-height: 22px;
+        /* or 148% */
+        margin-left: 130px;
+        
+        color: #000000;'>Total Number of Traded Friends
+      <div class="nul">0</div>  
+      </div>  
+        <div style='          font-style: normal;          font-size: 15px;
+                line-height: 22px;
+                /* or 148% */
+                margin-left: 130px;
+                
+                color: #000000;'>Total Number of Traded Friends
+                <div class="nul">0</div> </div>  
+         <div style='          font-style: normal;          font-size: 15px;
+                        line-height: 22px;
+                        /* or 148% */
+                        margin-left: 130px;
+                        
+        color: #000000;'>Total Numbers of Friends
+        <div class="nul">0</div> </div>  
+        <div style='          font-style: normal;          font-size: 15px;
+                 line-height: 24px;
+                 /* or 148% */
+                 margin-left: 130px;
+                 
+ color: #000000;'>Your Ranking<div class="nul">0</div>
+</div>  
+        </h6>
+          <p class="card-text hhhh">* Data update time refers to UTC + 0 time zone. The data maintenance time is 3am - 5am (UTC+0) every day. During this period, the calculation of today's data is based on the assets of previous day. After maintenance, all data will be displayed properly
+            * Statement: due to the complexity of financial data, there might be nuances and delay. Data displayed above is for reference only. We sincerely apologize for any inconvenience.</p>
+          <p  class="card-text" style='margin-left: 63px; margin-top: 30px;'>Your Referral Links List</a>
+          <div class="opaa">Remaining number of promotional links to be created: 19</div>
+         
+          <div class="glt">
+          <div class="tgt">Referral ID</div>
+          <div class="tgt">You Receive / Friends Receive</div>
+          <div class="tgt">Note</div>
+          <div class="tgt">Friends</div>
+       
+        </div>
+        <div class="glt" style='    margin-top: 30px;'>
+          <div class="tgt">195328711</div>
+          <div class="tgt">20% / 0%</div>
+          <div class="tgt" style='margin-left: 250px;'>-</div>
+          <div class="tgt"  style='margin-left: 137px;'>0</div>
+        </div>
         </div>
       </div>           
 </div>
