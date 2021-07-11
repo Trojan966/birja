@@ -34,4 +34,5 @@ def balance(request):
 
 def nft(request):
     return render(request, 'main/nft.html')
-
+def app(request):
+    return render(request, 'main/app.html')

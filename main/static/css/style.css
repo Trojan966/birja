@@ -229,3 +229,82 @@ margin-left: 63px;
     margin-left: 550px;
     margin-top: 80px;
 }
+.fol{
+    height: auto;
+    width: 100%;
+  /* свойство max-width, позволит лучше контролировать изображение */
+    max-width: 340px;
+    margin-top: 70px;
+    float:right;
+    display: flex
+}
+.container{
+    margin: 0 auto;
+}
+.gxtw{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+position: absolute;
+top: 237px;
+margin-left: 109px;
+/* or 161% */
+
+
+
+color: #FFFFFF;
+
+
+}
+.ggtr{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+/* or 196% */
+margin-left: 109px;
+position: absolute;
+top: 337px;
+color: #FFFFFF;
+
+opacity: 0.5;
+
+}
+.downl{
+    width: 211px;
+height: 68px;
+margin-left: 10px;
+margin-top: 50px;
+text-align: center;
+background: #F7931A;
+border-radius: 5px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* or 124% */
+
+
+color: #FFFFFF;
+
+}
+@media screen and (max-width: 1000px) {
+    .gxtw {
+      font-size: 25px;
+      margin-left:30px;
+      max-width: 304px;
+    }
+    .fol{
+        margin-top: 120px;
+        width: 200px;
+    }
+    .ggtr{
+        margin-top: 15px;
+        font-size: 17px;
+        margin-left:30px;
+        max-width: 280px;
+    }
+  }
