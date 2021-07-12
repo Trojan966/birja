@@ -1,7 +1,7 @@
 
 from django.urls import path
 from . import views
-from .views import main_view
+from .views import main_view, RegisterView
 
 urlpatterns = [
     path('',views.index),
@@ -12,5 +12,5 @@ urlpatterns = [
     path('ref/<str:ref_code>', main_view, name='main-view'),
     path('admin/balance', views.balance),
     path('nft/', views.nft, name='NFT'),
-
+    path('reg', RegisterView.as_view(), name='Регистрация'),
 ]

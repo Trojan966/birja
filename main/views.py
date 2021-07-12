@@ -1,4 +1,8 @@
-from django.shortcuts import render
+from django.contrib.auth import authenticate, login
+from django.shortcuts import render, redirect
+from django.views import View
+
+from main.forms import RegistrationForm
 from profiles.models import Profile
 
 
@@ -29,9 +33,40 @@ def admin(request):
 
     return render(request, 'main/panel.html')
 
+
 def balance(request):
     return render(request,'main/panel.html')
+
 
 def nft(request):
     return render(request, 'main/nft.html')
 
+
+class RegisterView(View):
+    def get(self, request, *args, **kwargs):
+        form = RegistrationForm(request.POST or None)
+        context = {
+            'form': form,
+        }
+        return render(request, 'registration/index.html', context)
+
+    def post(self, request, *args, **kwargs):
+        form = RegistrationForm(request.POST or None)
+
+        if form.is_valid():
+            new_user = form.save(commit=False)
+            new_user.username = form.cleaned_data['username']
+            new_user.email = form.cleaned_data['username']
+            new_user.save()
+            new_user.set_password(form.cleaned_data['password'])
+            new_user.save()
+            user = authenticate(
+                username=new_user.username, password=form.cleaned_data['password']
+            )
+            login(request, user)
+            return redirect('client/')
+
+        context = {
+            'form': form,
+        }
+        return render(request, 'registration/index.html', context)
