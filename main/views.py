@@ -18,9 +18,13 @@ def index(request):
 
 
 def indexen(request):
-    return render(request, 'main/inen.html')
-
-
+    return render(request, 'main/ru.html')
+def indexfra(request):
+    return render(request, 'main/france.html')
+def indexpol(request):
+    return render(request, 'main/pol.html')
+def indextr(request):
+    return render(request, 'main/tur.html')
 def client(request):
     return render(request, 'main/client panel.html')
 

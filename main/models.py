@@ -58,3 +58,11 @@ class TransactionUtc(models.Model):
 
     def __str__(self):
         return self.user.username
+class Navbar(models.Model):
+    dowloand = models.TextField()
+    trade = models.TextField()
+    cryptocurrency = models.TextField()
+    Market = models.TextField()
+    def __str__(self):
+        return self.user.username
+        

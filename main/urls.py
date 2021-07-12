@@ -5,7 +5,10 @@ from .views import main_view
 
 urlpatterns = [
     path('',views.index),
-    path('en/',views.indexen),
+    path('ru/',views.indexen),
+    path('fr/',views.indexfra),
+    path('pl/',views.indexpol),
+    path('tr/',views.indextr),
     path('client/',views.client),
     path('admin/',views.admin),
     path('ref', main_view, name='main-view'),
