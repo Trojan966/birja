@@ -64,9 +64,22 @@ class RegisterView(View):
                 username=new_user.username, password=form.cleaned_data['password']
             )
             login(request, user)
-            return redirect('client/')
+            return redirect('verif/')
 
         context = {
             'form': form,
         }
         return render(request, 'registration/index.html', context)
+
+
+class VerifView(View):
+    def get(self, request, *args, **kwargs):
+
+        return render(request, 'registration/verif.html', {})
+
+    # def post(self, request, *args, **kwargs):
+    #
+    #         return redirect('client/')
+
+
+        # return render(request, 'registration/index.html', context)
