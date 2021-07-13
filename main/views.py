@@ -22,9 +22,14 @@ def index(request):
 
 
 def indexen(request):
-    return render(request, 'main/inen.html')
+    return render(request, 'main/france.html')
 
-
+def indexrf(request):
+    return render(request, 'main/ru.html')
+def indextr(request):
+    return render(request, 'main/tur.html')
+def indexpl(request):
+    return render(request, 'main/pol.html')
 def client(request):
     return render(request, 'main/client panel.html')
 

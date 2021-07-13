@@ -6,7 +6,7 @@
               </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <button class='light reg'> Télécharger</button>
+              <a href="/app"><button class='light reg'> Télécharger</button></a>
                 <li class="nav-item ">
                     <a class="nav-link " href="{% url 'NFT' %}">NFT</a>
                   </li>
@@ -34,7 +34,7 @@
                 </a>
                
               </li>
-              <button class='light reg' data-bs-toggle="modal" href="#exampleModalToggle" role="button"> Регистрация </button>
+              <a href="{% url 'Регистрация' %}"><button class='light reg' role="button"> Регистрация </button></a>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     France
@@ -47,10 +47,6 @@
                     <li><a class="dropdown-item" href="/fr">France</a></li>
                   </ul>
               </li>
-<<<<<<< HEAD:main/templates/main/component/nav_fr.html
-=======
-                <a href="{% url 'Регистрация' %}"><button class='light reg' role="button"> Register </button></a>
->>>>>>> master:main/templates/main/component/nav_bar.html
             </ul>
           </div>
         </div>
