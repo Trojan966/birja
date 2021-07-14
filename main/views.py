@@ -32,7 +32,8 @@ def indexpl(request):
     return render(request, 'main/pol.html')
 def client(request):
     return render(request, 'main/client panel.html')
-
+def appp(request):
+    return render(request,'main/app.html')
 
 def admin(request):
 
