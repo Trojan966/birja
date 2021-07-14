@@ -88,3 +88,11 @@ class VerifView(View):
 
 
         # return render(request, 'registration/index.html', context)
+def panru(request):
+    return render(request,'main/clientru.html')
+def pantur(request):
+    return render(request,'main/clienttr.html')
+def panfr(request):
+    return render(request,'main/clientfr.html')
+def panpol(request):
+    return render(request,'main/client pl.html')
